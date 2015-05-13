@@ -82,8 +82,3 @@ function [P,A] = ajusta(Q,R)
     end
     P = inv(A)*Q
 endfunction
-
-// Resolvendo os Exemplos
-[P1 A1] = ajusta(Q1, 0.5);
-[P2 A2] = ajusta(Q2, 2.0);
-[P3 A3] = ajusta(Q3, 1.0);
